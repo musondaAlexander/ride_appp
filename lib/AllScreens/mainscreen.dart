@@ -11,6 +11,7 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       appBar: AppBar(
         title:const Text("Main Screen"),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
